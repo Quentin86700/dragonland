@@ -1,0 +1,178 @@
+/*Header*/
+
+header
+{
+    background-color: #2D2D2D;
+}
+
+/* Navigation */
+
+nav 
+{
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+}
+
+nav ul
+{
+    list-style-type: none;
+}
+
+nav li
+{
+    display: inline-block;
+    margin-right: 30px;
+    margin-left: 30px;
+    text-align: center;
+}
+
+nav a
+{
+    font-size: 1.3em;
+    color: #B7B7B7;
+    padding-bottom: 3px;
+    text-decoration: none;
+    font-family: Dayrom, serif;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
+nav a:hover
+{
+    color: #760001;
+    border-bottom: 3px solid #760001;
+}
+
+/* Body */
+
+body
+{
+    background-color: #E5E5E5;
+}
+
+#co
+{
+    background-color: #ececec;
+    border-bottom: 1px solid #DFDFDF;
+    box-shadow: 0 2px 4px grey;    
+    margin-top: 4%;
+    padding: 0.1% 0.1% 0.1% 0.1%;
+}
+
+h2
+{
+    color: rgba(0,0,0,.92);
+    font-weight: 420;
+    font-family: Montserrat;
+    margin-left: 10%;
+    font-size: 150%;
+}
+
+/* Connexion */
+
+input:focus
+{
+    outline: none;
+}
+
+p
+{
+    font-weight: bold;
+    color: black;
+    font-size: 125%;
+}
+
+#email
+{
+    background-color: #E5E5E5;
+    position: absolute;
+    width: 40%;
+    margin-left: 30%;
+    margin-top: 10%;
+    z-index: 2;
+    padding-left: 0.5%;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+    font-size: 100%;
+    border-right: none;
+    border-top: none;
+    border-left: none;
+    border-color: black;
+}
+
+#email2
+{
+    position: absolute;
+    z-index: 2;
+    margin-top: 8%;
+    margin-left: 30%;
+}
+
+#mdp
+{
+    background-color: #E5E5E5;
+    position: absolute;
+    width: 40%;
+    margin-left: 30%;
+    margin-top: 16%;
+    z-index: 2;
+    padding-left: 0.5%;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+    font-size: 100%;
+    border-right: none;
+    border-top: none;
+    border-left: none;
+    border-color: black;
+}
+
+#mdp2
+{
+    position: absolute;
+    z-index: 2;
+    margin-top: 14%;
+    margin-left: 30%;
+}
+
+#connexion
+{
+    position: absolute;
+    z-index: 2;
+    color: white;
+    background-color: red;
+    border-color: red;
+    margin-top: 20%;
+    margin-left: 46.5%;
+    width: 135px;
+    height: 40px;
+    border-radius: 5%;
+}
+
+p2
+{
+    position: absolute;
+    z-index: 2;
+    color: grey;
+    margin-top: 36%;
+    text-align: center;
+    width: 100%;
+}
+
+a
+{
+    color: red;
+    padding-bottom: 3px;
+    text-decoration: none;
+    font-family: Dayrom, serif;
+    font-weight: normal;
+}
+
+p3
+{
+    position: absolute;
+    z-index: 2;
+    margin-top: 23.5%;
+    text-align: center;
+    width: 100%;
+}
